@@ -1,0 +1,119 @@
+{
+  "minecraft": {
+    "version": "1.7.10",
+    "modLoaders": [
+      {
+        "id": "forge-10.13.4.1614",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "BuildCraft + IC2",
+  "version": "1.0.2",
+  "author": "Lazaruz88",
+  "files": [
+    {
+      "projectID": 242223,
+      "fileID": 2303711,
+      "required": true
+    },
+    {
+      "projectID": 269962,
+      "fileID": 2435022,
+      "required": true
+    },
+    {
+      "projectID": 222995,
+      "fileID": 2235481,
+      "required": true
+    },
+    {
+      "projectID": 243900,
+      "fileID": 2295427,
+      "required": true
+    },
+    {
+      "projectID": 230976,
+      "fileID": 2272838,
+      "required": true
+    },
+    {
+      "projectID": 242638,
+      "fileID": 2353971,
+      "required": true
+    },
+    {
+      "projectID": 61811,
+      "fileID": 2502739,
+      "required": true
+    },
+    {
+      "projectID": 222211,
+      "fileID": 2302312,
+      "required": true
+    },
+    {
+      "projectID": 222213,
+      "fileID": 2262089,
+      "required": true
+    },
+    {
+      "projectID": 267172,
+      "fileID": 2516903,
+      "required": true
+    },
+    {
+      "projectID": 297057,
+      "fileID": 2668703,
+      "required": true
+    },
+    {
+      "projectID": 32274,
+      "fileID": 2367915,
+      "required": true
+    },
+    {
+      "projectID": 233140,
+      "fileID": 2503632,
+      "required": true
+    },
+    {
+      "projectID": 221014,
+      "fileID": 2272835,
+      "required": true
+    },
+    {
+      "projectID": 223094,
+      "fileID": 2210792,
+      "required": true
+    },
+    {
+      "projectID": 237167,
+      "fileID": 2291433,
+      "required": true
+    },
+    {
+      "projectID": 237102,
+      "fileID": 2291494,
+      "required": true
+    },
+    {
+      "projectID": 267193,
+      "fileID": 2676145,
+      "required": true
+    },
+    {
+      "projectID": 302569,
+      "fileID": 2614309,
+      "required": true
+    },
+    {
+      "projectID": 229876,
+      "fileID": 2244002,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}

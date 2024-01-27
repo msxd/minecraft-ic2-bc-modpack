@@ -1,0 +1,281 @@
+[13:53:23] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[13:53:23] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[13:53:23] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\config\5.1\journeymap.core.config
+[13:53:23] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\config\5.1\journeymap.fullmap.config
+[13:53:23] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\config\5.1\journeymap.minimap.config
+[13:53:23] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\config\5.1\journeymap.minimap2.config
+[13:53:23] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\config\5.1\journeymap.webmap.config
+[13:53:23] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\config\5.1\journeymap.waypoint.config
+[13:53:23] [Client thread/INFO] [?] Version: JourneyMap 5.1.4p2 Unlimited, built with Forge 10.13.4.1558
+Forge: 10.13.4.1614
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=ru_RU, locale=ru_ru
+Unlimited Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=0, fontScale=2, locationFormat=xzyv, locationFormatVerbose=true, showCaves=true, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, active=true, compassFontScale=1, enabled=true, frameAlpha=100, name=minimap, orientation=Моё направление, position=Вверху справа, preferredMapType=day, reticleOrientation=Компас, shape=Квадрат, showBiome=true, showCompass=true, showFps=false, showLocation=true, showReticle=true, sizePercent=24, terrainAlpha=100}
+MiniMapProperties2{enabled=true, shape=Прямоугольник, position=Сверху по центру, showFps=false, showBiome=true, showLocation=true, showWaypointLabels=true, sizePercent=30, frameAlpha=60, terrainAlpha=60, orientation=Моё направление, compassFontScale=1, showCompass=true, showReticle=true, reticleOrientation=Компас, preferredMapType=day, name=minimap2, id=2}
+FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=0, fontScale=2, locationFormat=xzyv, locationFormatVerbose=true, showCaves=false, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, preferredMapType=day, showGrid=true}
+WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
+WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
+CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, isUpdateCheckEnabled=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerViewed=5.1.4p2, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=7, revealShape=Окружность, themeName=Purist, tileRenderType=1}
+[13:53:23] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
+[13:53:23] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
+[13:53:23] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[13:53:23] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[13:53:23] [Client thread/ERROR] [FileHandler] Couldn't unzip resource set from /C:/Users/madsm/curseforge/minecraft/Instances/BuildCraft   IC2/mods/journeymap-1.7.10-5.1.4p2-unlimited.jar to C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D: java.io.FileNotFoundException: C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft   IC2\mods\journeymap-1.7.10-5.1.4p2-unlimited.jar (The system cannot find the path specified)
+[13:53:23] [Client thread/ERROR] [FileHandler] Couldn't unzip resource set from /C:/Users/madsm/curseforge/minecraft/Instances/BuildCraft   IC2/mods/journeymap-1.7.10-5.1.4p2-unlimited.jar to C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\3D: java.io.FileNotFoundException: C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft   IC2\mods\journeymap-1.7.10-5.1.4p2-unlimited.jar (The system cannot find the path specified)
+[13:53:23] [Client thread/ERROR] [FileHandler] Couldn't unzip resource set from /C:/Users/madsm/curseforge/minecraft/Instances/BuildCraft   IC2/mods/journeymap-1.7.10-5.1.4p2-unlimited.jar to C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian: java.io.FileNotFoundException: C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft   IC2\mods\journeymap-1.7.10-5.1.4p2-unlimited.jar (The system cannot find the path specified)
+[13:53:23] [Client thread/ERROR] [FileHandler] Couldn't unzip resource set from /C:/Users/madsm/curseforge/minecraft/Instances/BuildCraft   IC2/mods/journeymap-1.7.10-5.1.4p2-unlimited.jar to C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Vault: java.io.FileNotFoundException: C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft   IC2\mods\journeymap-1.7.10-5.1.4p2-unlimited.jar (The system cannot find the path specified)
+[13:53:23] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+java.net.UnknownHostException: widget.mcf.li
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_51]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_51]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_51]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[?:1.8.0_51]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[?:1.8.0_51]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[?:1.8.0_51]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[?:1.8.0_51]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:988) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:986) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(AccessController.java:713) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:985) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1512) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(AccessController.java:713) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429) ~[?:1.8.0_51]
+	at java.net.URL.openStream(URL.java:1038) ~[?:1.8.0_51]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_51]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[13:53:23] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r105.81§8ms§r
+[13:53:27] [Client thread/INFO] [ColorManager] Loading blocks and textures...
+[13:53:27] [Client thread/INFO] [BlockMD] Built BlockMD cache (524) : BlockMD.reset count 1 avg 11.39ms
+[13:53:27] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 1024x1024 loaded in 15.1783ms
+[13:53:27] [Client thread/INFO] [ColorPalette] Existing color palette's resource packs and mod names match current loadout.
+[13:53:27] [Client thread/INFO] [ColorManager] Loaded 517 block colors from color palette file in 2ms: C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\colorpalette.json
+[13:53:27] [Client thread/INFO] [ColorManager] Initialized 7 block colors from mods and resource packs in 1ms
+[13:53:27] [Client thread/INFO] [ColorPalette] Color palette file generated with 517 colors in 8ms for: C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\colorpalette.json
+[13:53:27] [Client thread/INFO] [ColorManager] Updated color palette file: C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\colorpalette.json
+[13:53:42] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[13:53:44] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[13:53:44] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\minimap\square\pur_topleft.png) nor resource (/assets/journeymap/icon/theme/Victorian/minimap/square/pur_topleft.png) 
+[13:53:44] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\minimap\square\pur_top.png) nor resource (/assets/journeymap/icon/theme/Victorian/minimap/square/pur_top.png) 
+[13:53:44] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\minimap\square\pur_topright.png) nor resource (/assets/journeymap/icon/theme/Victorian/minimap/square/pur_topright.png) 
+[13:53:44] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\minimap\square\pur_right.png) nor resource (/assets/journeymap/icon/theme/Victorian/minimap/square/pur_right.png) 
+[13:53:44] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\minimap\square\pur_bottomright.png) nor resource (/assets/journeymap/icon/theme/Victorian/minimap/square/pur_bottomright.png) 
+[13:53:44] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\minimap\square\pur_bottom.png) nor resource (/assets/journeymap/icon/theme/Victorian/minimap/square/pur_bottom.png) 
+[13:53:44] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\minimap\square\pur_bottomleft.png) nor resource (/assets/journeymap/icon/theme/Victorian/minimap/square/pur_bottomleft.png) 
+[13:53:44] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\minimap\square\pur_left.png) nor resource (/assets/journeymap/icon/theme/Victorian/minimap/square/pur_left.png) 
+[13:53:44] [Client thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[13:53:44] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[13:53:44] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 1612MB total, 691MB free 
+[13:53:44] [Client thread/INFO] [ChatLog] JourneyMap: Нажмите [J].
+[13:53:44] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\caves.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/caves.png) 
+[13:53:45] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\cow\cow.png) nor resource (/assets/journeymap/icon/entity/2D/cow/cow.png) 
+[13:53:45] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\creeper\creeper.png) nor resource (/assets/journeymap/icon/entity/2D/creeper/creeper.png) 
+[13:53:45] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\slime\slime.png) nor resource (/assets/journeymap/icon/entity/2D/slime/slime.png) 
+[13:53:45] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\skeleton\skeleton.png) nor resource (/assets/journeymap/icon/entity/2D/skeleton/skeleton.png) 
+[13:55:01] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\zombie\zombie.png) nor resource (/assets/journeymap/icon/entity/2D/zombie/zombie.png) 
+[13:55:47] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\spider\spider.png) nor resource (/assets/journeymap/icon/entity/2D/spider/spider.png) 
+[14:03:48] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\enderman\enderman.png) nor resource (/assets/journeymap/icon/entity/2D/enderman/enderman.png) 
+[14:06:51] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\witch.png) nor resource (/assets/journeymap/icon/entity/2D/witch.png) 
+[14:17:49] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\day.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/day.png) 
+[14:19:30] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\squid.png) nor resource (/assets/journeymap/icon/entity/2D/squid.png) 
+[14:22:10] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\zombie\zombie_villager.png) nor resource (/assets/journeymap/icon/entity/2D/zombie/zombie_villager.png) 
+[14:33:53] [Client thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[14:33:54] [Client thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[14:41:41] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[14:41:49] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\sp\Новый мир\waypoints
+[14:41:49] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[14:41:49] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\sp\Новый мир\DIM0. Memory: 674MB total, 240MB free 
+[14:41:49] [JM-task-26/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:redstone_wire:11] (CustomBiomeColor)
+[14:41:49] [JM-task-26/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:redstone_wire:12] (CustomBiomeColor)
+[14:41:49] [JM-task-26/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:redstone_wire:13] (CustomBiomeColor)
+[14:41:49] [JM-task-26/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:redstone_wire:14] (CustomBiomeColor)
+[14:41:49] [JM-task-26/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:redstone_wire:15] (CustomBiomeColor)
+[15:00:38] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\sp\Новый мир\DIM0
+[15:00:44] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:00:45] [Client thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:00:45] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:00:45] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 612MB total, 238MB free 
+[15:07:15] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:07:19] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\sp\Новый мир\waypoints
+[15:07:19] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:07:19] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\sp\Новый мир\DIM0. Memory: 743MB total, 262MB free 
+[15:08:21] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\sp\Новый мир\DIM0
+[15:08:25] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:08:26] [Client thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:08:26] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:08:26] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 944MB total, 551MB free 
+[15:12:17] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\sheep\sheep.png) nor resource (/assets/journeymap/icon/entity/2D/sheep/sheep.png) 
+[15:28:20] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:28:20] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:28:20] [Client thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:28:20] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:28:20] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 582MB total, 240MB free 
+[15:28:20] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\zombie_pigman.png) nor resource (/assets/journeymap/icon/entity/2D/zombie_pigman.png) 
+[15:28:33] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\ghast\ghast.png) nor resource (/assets/journeymap/icon/entity/2D/ghast/ghast.png) 
+[15:29:11] [Client thread/INFO] [StateTickHandler] madsmilexd died at x:10, y:39, z:65. Deathpoint created: true
+[15:29:15] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[15:29:15] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:29:16] [Client thread/INFO] [WaypointStore] Loaded 4 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:29:16] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:29:16] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 620MB total, 267MB free 
+[15:29:16] [JM-task-53/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:reeds:13] (CustomBiomeColor)
+[15:29:16] [JM-task-53/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:reeds:14] (CustomBiomeColor)
+[15:29:16] [JM-task-53/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:reeds:7] (CustomBiomeColor)
+[15:29:16] [JM-task-53/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:reeds:9] (CustomBiomeColor)
+[15:29:39] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:29:39] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:29:39] [Client thread/INFO] [WaypointStore] Loaded 4 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:29:39] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:29:39] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 649MB total, 286MB free 
+[15:29:42] [Client thread/INFO] [StateTickHandler] madsmilexd died at x:13, y:38, z:71. Deathpoint created: true
+[15:29:44] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[15:29:44] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:29:44] [Client thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:29:44] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:29:44] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 651MB total, 274MB free 
+[15:29:45] [JM-task-55/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:reeds:15] (CustomBiomeColor)
+[15:30:00] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:30:00] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:30:01] [Client thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:30:01] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:30:01] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 637MB total, 233MB free 
+[15:32:05] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\entity\2D\slime\magmacube.png) nor resource (/assets/journeymap/icon/entity/2D/slime/magmacube.png) 
+[15:32:26] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[15:32:26] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:32:27] [Client thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:32:27] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:32:27] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 662MB total, 187MB free 
+[15:32:28] [JM-task-57/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:reeds:10] (CustomBiomeColor)
+[15:32:28] [JM-task-57/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [minecraft:reeds:11] (CustomBiomeColor)
+[15:33:24] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:33:24] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:33:24] [Client thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:33:24] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:33:24] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 712MB total, 321MB free 
+[15:38:24] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[15:38:24] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:38:25] [Client thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:38:25] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:38:25] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 701MB total, 275MB free 
+[15:43:23] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:43:23] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:43:23] [Client thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:43:23] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:43:23] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 702MB total, 314MB free 
+[15:44:37] [Client thread/INFO] [StateTickHandler] madsmilexd died at x:12, y:39, z:67. Deathpoint created: true
+[15:44:39] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[15:44:40] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:44:40] [Client thread/INFO] [WaypointStore] Loaded 6 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:44:40] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:44:40] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 734MB total, 319MB free 
+[15:44:52] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:44:52] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:44:53] [Client thread/INFO] [WaypointStore] Loaded 6 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:44:53] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:44:53] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 736MB total, 294MB free 
+[15:46:05] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[15:46:05] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:46:05] [Client thread/INFO] [WaypointStore] Loaded 6 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:46:05] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:46:05] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 750MB total, 302MB free 
+[15:47:44] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:47:44] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:47:44] [Client thread/INFO] [WaypointStore] Loaded 6 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:47:44] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:47:44] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 738MB total, 289MB free 
+[15:48:10] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[15:48:10] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:48:11] [Client thread/INFO] [WaypointStore] Loaded 6 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:48:11] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:48:11] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 762MB total, 294MB free 
+[15:49:02] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:49:02] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:49:02] [Client thread/INFO] [WaypointStore] Loaded 6 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:49:02] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:49:02] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 774MB total, 304MB free 
+[15:49:43] [Client thread/INFO] [StateTickHandler] madsmilexd died at x:9, y:39, z:73. Deathpoint created: true
+[15:49:44] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[15:49:44] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:49:44] [Client thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:49:44] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:49:44] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 777MB total, 330MB free 
+[15:49:57] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:49:57] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:49:58] [Client thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:49:58] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:49:58] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 782MB total, 304MB free 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\night.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/night.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\follow.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/follow.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\zoomin.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/zoomin.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\zoomout.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/zoomout.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\waypoints.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/waypoints.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\theme.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/theme.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\options.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/options.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\actions.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/actions.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\alert.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/alert.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\close.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/close.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\monsters.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/monsters.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\animals.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/animals.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\pets.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/pets.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\villagers.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/villagers.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\players.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/players.png) 
+[15:51:14] [Client thread/ERROR] [FileHandler] Can't get image from file (C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\icon\theme\Victorian\icon\grid.png) nor resource (/assets/journeymap/icon/theme/Victorian/icon/grid.png) 
+[15:51:43] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[15:51:43] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:51:44] [Client thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:51:44] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:51:44] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 810MB total, 303MB free 
+[15:52:20] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:52:20] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:52:21] [Client thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:52:21] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:52:21] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 813MB total, 330MB free 
+[15:54:27] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[15:54:27] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:54:28] [Client thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:54:28] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:54:28] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 803MB total, 285MB free 
+[15:55:18] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:55:18] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:55:18] [Client thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:55:18] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:55:18] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 809MB total, 338MB free 
+[15:57:07] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[15:57:07] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:57:09] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:57:09] [Client thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:57:09] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:57:09] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 824MB total, 315MB free 
+[15:57:30] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0
+[15:57:30] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[15:57:31] [Client thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[15:57:31] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[15:57:31] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1. Memory: 828MB total, 337MB free 
+[16:00:49] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM-1
+[16:00:49] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[16:00:49] [Client thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\waypoints
+[16:00:49] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[16:00:49] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0. Memory: 813MB total, 328MB free 
+[16:35:03] [Client thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[16:35:04] [Client thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[16:40:51] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\madsm\curseforge\minecraft\Instances\BuildCraft + IC2\journeymap\data\mp\~Minecraft\DIM0

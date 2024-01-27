@@ -1,0 +1,3181 @@
+var colorpalette={
+  "version": 3,
+  "name": "Цветовая палитра JourneyMap",
+  "generated": "Generated using JourneyMap 5.1.4p2 Unlimited for 1.7.10 on Sat Jan 27 13:53:27 EET 2024",
+  "description": [
+    "Этот файл может быть использован для сохранения целостности цветовой гаммы карты при смене темы оформления Minecraft.",
+    "Редактируйте файл на свой страх и риск. Вы можете просмотреть этот файл: \u0027colorpalette.html\u0027",
+    "Для использования этой палитры в одном мире поместите colorpalette.json в .minecraft/journeymap/data/*/worldname/",
+    "Для использования этой палитры везде, отредактируйте \u0027colorpalette.json\u0027, установите \"permanent\": true и поместите файл в \u0027.minecraft/journeymap/\u0027",
+    "Для дополнительной информации откройте страницу http://journeymap.info/help/wiki/Color_Palette"
+  ],
+  "permanent": false,
+  "resourcePacks": "Default",
+  "modNames": "Additional Pipes:4.7.7, Advanced Solar Panels:1.7.10-3.5.1, BC Builders:7.1.23, BC Energy:7.1.23, BC Factory:7.1.23, BC Robotics:7.1.23, BC Silicon:7.1.23, BC Transport:7.1.23, BuildCraft Additions:2.2.5, BuildCraft Compat:7.1.7, BuildCraft:7.1.23, Chunk Pregenerator:2.1, CodeChicken Core:1.0.7.47, Eureka:3.0.2, FTBLib:1.0.18.2, FTBUtilities:1.0.18.2, Fast Leaf Decay:1.4, Forge Mod Loader:7.10.99.99, FriendlyMobs:1.0.0, IndustrialCraft 2:2.2.827-experimental, Inventory Tweaks:1.59-dev-152-cf6e263, Iron Chest:6.0.62.742, JourneyMap:5.1.4p2, Just Enough Calculation:0.3.4, Let\u0027s Encrypt Craft:@VERSION@, MineTogether:unspecified, MineTogetherServer:unspecified, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, Not Enough Items:1.0.5.120, Treecapitator:1.7.10, bspkrsCore:6.15, stabilizermod:3.4",
+  "basicColors": [
+    {
+      "name": "Barrel",
+      "uid": "IC2:blockBarrel",
+      "meta": 0,
+      "color": "#5f4a2d"
+    },
+    {
+      "name": "DirtChest 9000!",
+      "uid": "IronChest:BlockIronChest",
+      "meta": 7,
+      "color": "#5f4832"
+    },
+    {
+      "name": "Hotspring Water",
+      "uid": "IC2:fluidHotWater",
+      "meta": 0,
+      "color": "#3bf2f2",
+      "alpha": 0.3
+    },
+    {
+      "name": "Stirling Kinetic Generator",
+      "uid": "IC2:blockKineticGenerator",
+      "meta": 5,
+      "color": "#a9a8a5"
+    },
+    {
+      "name": "Teleport Tether",
+      "uid": "additionalpipes:chunkLoader",
+      "meta": 0,
+      "color": "#77757c"
+    },
+    {
+      "name": "cake",
+      "uid": "minecraft:cake",
+      "meta": 0,
+      "color": "#e4cdce"
+    },
+    {
+      "name": "ic2.blockDynamite",
+      "uid": "IC2:blockDynamite",
+      "meta": 0,
+      "color": "#b33715"
+    },
+    {
+      "name": "ic2.blockDynamiteRemote",
+      "uid": "IC2:blockDynamiteRemote",
+      "meta": 0,
+      "color": "#a9472c"
+    },
+    {
+      "name": "ic2.blockHarz",
+      "uid": "IC2:blockHarz",
+      "meta": 0,
+      "color": "#c8871b"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 0,
+      "color": "#3d3a3a"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 1,
+      "color": "#d54b48"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 2,
+      "color": "#587338"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 3,
+      "color": "#7f543b"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 4,
+      "color": "#4654cd"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 5,
+      "color": "#b45ce9"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 6,
+      "color": "#47a7c8"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 7,
+      "color": "#a9a9a9"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 8,
+      "color": "#656565"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 9,
+      "color": "#f3c0d1"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 10,
+      "color": "#5de84f"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 11,
+      "color": "#ece43e"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 12,
+      "color": "#a4c2ef"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 13,
+      "color": "#e47de9"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 14,
+      "color": "#f8b060"
+    },
+    {
+      "name": "ic2.blockWall",
+      "uid": "IC2:blockWall",
+      "meta": 15,
+      "color": "#dfdfdf"
+    },
+    {
+      "name": "netherStalk",
+      "uid": "minecraft:nether_wart",
+      "meta": 0,
+      "color": "#6a0e1e"
+    },
+    {
+      "name": "null",
+      "uid": "minecraft:piston_extension",
+      "meta": 0,
+      "color": "#998159"
+    },
+    {
+      "name": "null",
+      "uid": "minecraft:piston_head",
+      "meta": 0,
+      "color": "#998159"
+    },
+    {
+      "name": "pumpkinStem",
+      "uid": "minecraft:melon_stem",
+      "meta": 0,
+      "color": "#999999"
+    },
+    {
+      "name": "pumpkinStem",
+      "uid": "minecraft:pumpkin_stem",
+      "meta": 0,
+      "color": "#999999"
+    },
+    {
+      "name": "tile.KEB/T2/5.name",
+      "uid": "bcadditions:kebT2DisplayItem",
+      "meta": 0,
+      "color": "#a9b1af"
+    },
+    {
+      "name": "tile.KEB/T3/4.name",
+      "uid": "bcadditions:kebT3DisplayItem",
+      "meta": 0,
+      "color": "#abb4b2"
+    },
+    {
+      "name": "tile.blockDoorAlloy.name",
+      "uid": "IC2:blockDoorAlloy",
+      "meta": 0,
+      "color": "#616055"
+    },
+    {
+      "name": "tile.blockRedPlasma.name",
+      "uid": "BuildCraft|Energy:blockRedPlasma",
+      "meta": 0,
+      "color": "#4e0000",
+      "alpha": 0.3
+    },
+    {
+      "name": "tile.buildToolBlock.name",
+      "uid": "BuildCraft|Core:buildToolBlock",
+      "meta": 0,
+      "color": "#a31c1c"
+    },
+    {
+      "name": "tile.null.name",
+      "uid": "minecraft:end_portal",
+      "meta": 0,
+      "color": "#560abe"
+    },
+    {
+      "name": "tile.pipeBlock.name",
+      "uid": "BuildCraft|Transport:pipeBlock",
+      "meta": 0,
+      "color": "#807f7e",
+      "alpha": 0.4
+    },
+    {
+      "name": "Автоматический верстак",
+      "uid": "BuildCraft|Factory:autoWorkbenchBlock",
+      "meta": 0,
+      "color": "#715236"
+    },
+    {
+      "name": "Автосадовник",
+      "uid": "IC2:blockMachine2",
+      "meta": 2,
+      "color": "#b8bebf"
+    },
+    {
+      "name": "Адские кирпичи",
+      "uid": "minecraft:nether_brick",
+      "meta": 0,
+      "color": "#2c161a"
+    },
+    {
+      "name": "Адские ступеньки",
+      "uid": "minecraft:nether_brick_stairs",
+      "meta": 0,
+      "color": "#2c161a"
+    },
+    {
+      "name": "Адский забор",
+      "uid": "minecraft:nether_brick_fence",
+      "meta": 0,
+      "color": "#2c161a",
+      "alpha": 0.4
+    },
+    {
+      "name": "Адский камень",
+      "uid": "minecraft:netherrack",
+      "meta": 0,
+      "color": "#6f3634"
+    },
+    {
+      "name": "Активирующие рельсы",
+      "uid": "minecraft:activator_rail",
+      "meta": 0,
+      "color": "#685347"
+    },
+    {
+      "name": "Алмазная руда",
+      "uid": "minecraft:diamond_ore",
+      "meta": 0,
+      "color": "#818c8f"
+    },
+    {
+      "name": "Алмазный блок",
+      "uid": "minecraft:diamond_block",
+      "meta": 0,
+      "color": "#61dbd5"
+    },
+    {
+      "name": "Алмазный сундук",
+      "uid": "IronChest:BlockIronChest",
+      "meta": 2,
+      "color": "#3bdef5"
+    },
+    {
+      "name": "Арбуз",
+      "uid": "minecraft:melon_block",
+      "meta": 0,
+      "color": "#979924"
+    },
+    {
+      "name": "Базальт",
+      "uid": "IC2:blockBasalt",
+      "meta": 0,
+      "color": "#323232"
+    },
+    {
+      "name": "Базальтовая лава",
+      "uid": "IC2:fluidPahoehoeLava",
+      "meta": 0,
+      "color": "#777169"
+    },
+    {
+      "name": "Бедрок",
+      "uid": "minecraft:bedrock",
+      "meta": 0,
+      "color": "#535353"
+    },
+    {
+      "name": "Белая обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 0,
+      "color": "#d1b2a1"
+    },
+    {
+      "name": "Белая стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "name": "Белое стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "name": "Белый тюльпан",
+      "uid": "minecraft:red_flower",
+      "meta": 6,
+      "color": "#b0b0b0"
+    },
+    {
+      "name": "Березовые ступеньки",
+      "uid": "minecraft:birch_stairs",
+      "meta": 0,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "Берёза",
+      "uid": "minecraft:log",
+      "meta": 2,
+      "color": "#b8a679"
+    },
+    {
+      "name": "Берёзовая плита",
+      "uid": "minecraft:wooden_slab",
+      "meta": 2,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "Берёзовые доски",
+      "uid": "minecraft:planks",
+      "meta": 2,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "Берёзовые листья",
+      "uid": "minecraft:leaves",
+      "meta": 2,
+      "color": "#878787"
+    },
+    {
+      "name": "Библиотека проектов",
+      "uid": "BuildCraft|Builders:libraryBlock",
+      "meta": 0,
+      "color": "#cacaca"
+    },
+    {
+      "name": "Биогаз",
+      "uid": "IC2:fluidBiogas",
+      "meta": 0,
+      "color": "#a6974b",
+      "alpha": 0.3
+    },
+    {
+      "name": "Биомасса",
+      "uid": "IC2:fluidBiomass",
+      "meta": 0,
+      "color": "#366e24",
+      "alpha": 0.3
+    },
+    {
+      "name": "Бирюзовая обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 9,
+      "color": "#565b5b"
+    },
+    {
+      "name": "Бирюзовая стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 9,
+      "color": "#4c7f99",
+      "alpha": 0.4
+    },
+    {
+      "name": "Бирюзовая шерсть",
+      "uid": "minecraft:wool",
+      "meta": 9,
+      "color": "#2e6e89"
+    },
+    {
+      "name": "Бирюзовое стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 9,
+      "color": "#4c7f99",
+      "alpha": 0.4
+    },
+    {
+      "name": "Бирюзовый ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 9,
+      "color": "#2e6e89"
+    },
+    {
+      "name": "Блок закалённого железа",
+      "uid": "IC2:blockMetal",
+      "meta": 5,
+      "color": "#9aaeb4"
+    },
+    {
+      "name": "Блок красного камня",
+      "uid": "minecraft:redstone_block",
+      "meta": 0,
+      "color": "#ab1b09"
+    },
+    {
+      "name": "Блок лазурита",
+      "uid": "minecraft:lapis_block",
+      "meta": 0,
+      "color": "#264389"
+    },
+    {
+      "name": "Блок травы",
+      "uid": "minecraft:grass",
+      "meta": 0,
+      "color": "#939393"
+    },
+    {
+      "name": "Большое кинетическое энергохранилище",
+      "uid": "bcadditions:KEBT2",
+      "meta": 0,
+      "color": "#af9a9a"
+    },
+    {
+      "name": "Бронзовый блок",
+      "uid": "IC2:blockMetal",
+      "meta": 2,
+      "color": "#d15c00"
+    },
+    {
+      "name": "Булыжник",
+      "uid": "minecraft:cobblestone",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Буровая труба",
+      "uid": "BuildCraft|Factory:plainPipeBlock",
+      "meta": 0,
+      "color": "#5e4b37",
+      "alpha": 0.4
+    },
+    {
+      "name": "Буровая труба",
+      "uid": "IC2:blockMiningPipe",
+      "meta": 0,
+      "color": "#6b6b6b"
+    },
+    {
+      "name": "Буровая установка",
+      "uid": "BuildCraft|Factory:miningWellBlock",
+      "meta": 0,
+      "color": "#b7b7b7"
+    },
+    {
+      "name": "Буровая установка",
+      "uid": "IC2:blockMachine",
+      "meta": 7,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Варочная стойка",
+      "uid": "minecraft:brewing_stand",
+      "meta": 0,
+      "color": "#7c6751"
+    },
+    {
+      "name": "Верстак",
+      "uid": "minecraft:crafting_table",
+      "meta": 0,
+      "color": "#6b472a"
+    },
+    {
+      "name": "Ветрогенератор",
+      "uid": "IC2:blockGenerator",
+      "meta": 4,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Вода",
+      "uid": "minecraft:flowing_water",
+      "meta": 0,
+      "color": "#2e43f4",
+      "alpha": 0.3
+    },
+    {
+      "name": "Вода",
+      "uid": "minecraft:water",
+      "meta": 0,
+      "color": "#2e43f4",
+      "alpha": 0.3
+    },
+    {
+      "name": "Воронка",
+      "uid": "BuildCraft|Factory:blockHopper",
+      "meta": 0,
+      "color": "#c7c7c7"
+    },
+    {
+      "name": "Воронка",
+      "uid": "minecraft:hopper",
+      "meta": 0,
+      "color": "#454545"
+    },
+    {
+      "name": "Выбрасыватель",
+      "uid": "minecraft:dropper",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "Генератор",
+      "uid": "IC2:blockGenerator",
+      "meta": 0,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Генератор Стирлинга",
+      "uid": "IC2:blockGenerator",
+      "meta": 8,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Генератор материи",
+      "uid": "IC2:blockMachine",
+      "meta": 14,
+      "color": "#bfc8c8"
+    },
+    {
+      "name": "Геотермальный генератор",
+      "uid": "IC2:blockGenerator",
+      "meta": 1,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Гибридная солнечная панель",
+      "uid": "AdvancedSolarPanel:BlockAdvSolarPanel",
+      "meta": 1,
+      "color": "#344652"
+    },
+    {
+      "name": "Гидрогенератор",
+      "uid": "IC2:blockGenerator",
+      "meta": 2,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Гладкий песчаник",
+      "uid": "minecraft:sandstone",
+      "meta": 2,
+      "color": "#dad29e"
+    },
+    {
+      "name": "Глина",
+      "uid": "minecraft:clay",
+      "meta": 0,
+      "color": "#9ea4b0"
+    },
+    {
+      "name": "Голубая обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 3,
+      "color": "#716c89"
+    },
+    {
+      "name": "Голубая стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 3,
+      "color": "#6699d8",
+      "alpha": 0.4
+    },
+    {
+      "name": "Голубая шерсть",
+      "uid": "minecraft:wool",
+      "meta": 3,
+      "color": "#6a8ac9"
+    },
+    {
+      "name": "Голубое стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 3,
+      "color": "#6699d8",
+      "alpha": 0.4
+    },
+    {
+      "name": "Голубой василек",
+      "uid": "minecraft:red_flower",
+      "meta": 3,
+      "color": "#9da1a7"
+    },
+    {
+      "name": "Голубой ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 3,
+      "color": "#6a8ac9"
+    },
+    {
+      "name": "Горячий хладагент (IC2)",
+      "uid": "IC2:fluidHotCoolant",
+      "meta": 0,
+      "color": "#b32733"
+    },
+    {
+      "name": "Гравий",
+      "uid": "minecraft:gravel",
+      "meta": 0,
+      "color": "#7e7c7a"
+    },
+    {
+      "name": "Гриб",
+      "uid": "minecraft:brown_mushroom",
+      "meta": 0,
+      "color": "#8a6953"
+    },
+    {
+      "name": "Гриб",
+      "uid": "minecraft:brown_mushroom_block",
+      "meta": 0,
+      "color": "#8d6a53"
+    },
+    {
+      "name": "Гриб",
+      "uid": "minecraft:red_mushroom",
+      "meta": 0,
+      "color": "#c33538"
+    },
+    {
+      "name": "Гриб",
+      "uid": "minecraft:red_mushroom_block",
+      "meta": 0,
+      "color": "#b62524"
+    },
+    {
+      "name": "Губка",
+      "uid": "minecraft:sponge",
+      "meta": 0,
+      "color": "#b6b639"
+    },
+    {
+      "name": "Датчик дневного света",
+      "uid": "minecraft:daylight_detector",
+      "meta": 0,
+      "color": "#82745e"
+    },
+    {
+      "name": "Двигатель Стирлинга",
+      "uid": "BuildCraft|Core:engineBlock",
+      "meta": 1,
+      "color": "#656565"
+    },
+    {
+      "name": "Двигатель внутреннего сгорания",
+      "uid": "BuildCraft|Core:engineBlock",
+      "meta": 2,
+      "color": "#bcbcbc"
+    },
+    {
+      "name": "Двигатель для творческого режима",
+      "uid": "BuildCraft|Core:engineBlock",
+      "meta": 3,
+      "color": "#791212"
+    },
+    {
+      "name": "Двигатель на красном камне",
+      "uid": "BuildCraft|Core:engineBlock",
+      "meta": 0,
+      "color": "#6a4e33"
+    },
+    {
+      "name": "Двойная высокая трава",
+      "uid": "minecraft:double_plant",
+      "meta": 2,
+      "color": "#818181"
+    },
+    {
+      "name": "Деревянная дверь",
+      "uid": "minecraft:wooden_door",
+      "meta": 0,
+      "color": "#866532"
+    },
+    {
+      "name": "Динамит",
+      "uid": "minecraft:tnt",
+      "meta": 0,
+      "color": "#82412f"
+    },
+    {
+      "name": "Дистиллированная вода",
+      "uid": "IC2:fluidDistilledWater",
+      "meta": 0,
+      "color": "#4355f5",
+      "alpha": 0.3
+    },
+    {
+      "name": "Доменная печь",
+      "uid": "IC2:blockMachine3",
+      "meta": 1,
+      "color": "#c0c6c7"
+    },
+    {
+      "name": "Доски из акации",
+      "uid": "minecraft:planks",
+      "meta": 4,
+      "color": "#a95b33"
+    },
+    {
+      "name": "Доски из тропического дерева",
+      "uid": "minecraft:planks",
+      "meta": 3,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "Доски из тёмного дуба",
+      "uid": "minecraft:planks",
+      "meta": 5,
+      "color": "#3d2712"
+    },
+    {
+      "name": "Древесина акации",
+      "uid": "minecraft:log2",
+      "meta": 0,
+      "color": "#9a5b40"
+    },
+    {
+      "name": "Древесина гевеи",
+      "uid": "IC2:blockRubWood",
+      "meta": 0,
+      "color": "#93702b"
+    },
+    {
+      "name": "Древесина тёмного дуба",
+      "uid": "minecraft:log2",
+      "meta": 1,
+      "color": "#4e3e29"
+    },
+    {
+      "name": "Дробитель",
+      "uid": "IC2:blockMachine",
+      "meta": 3,
+      "color": "#a3a9aa"
+    },
+    {
+      "name": "Дуб",
+      "uid": "minecraft:log",
+      "meta": 0,
+      "color": "#9a7d4d"
+    },
+    {
+      "name": "Дубовая плита",
+      "uid": "minecraft:wooden_slab",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Дубовые доски",
+      "uid": "minecraft:planks",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Дубовые листья",
+      "uid": "minecraft:leaves",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "Дубовые ступеньки",
+      "uid": "minecraft:oak_stairs",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Еловая панель",
+      "uid": "minecraft:wooden_slab",
+      "meta": 1,
+      "color": "#674d2e"
+    },
+    {
+      "name": "Еловые доски",
+      "uid": "minecraft:planks",
+      "meta": 1,
+      "color": "#674d2e"
+    },
+    {
+      "name": "Еловые ступеньки",
+      "uid": "minecraft:spruce_stairs",
+      "meta": 0,
+      "color": "#674d2e"
+    },
+    {
+      "name": "Ель",
+      "uid": "minecraft:log",
+      "meta": 1,
+      "color": "#685130"
+    },
+    {
+      "name": "Железная дверь",
+      "uid": "minecraft:iron_door",
+      "meta": 0,
+      "color": "#a3a3a3"
+    },
+    {
+      "name": "Железная печь",
+      "uid": "IC2:blockMachine",
+      "meta": 1,
+      "color": "#e2e2e2"
+    },
+    {
+      "name": "Железная руда",
+      "uid": "minecraft:iron_ore",
+      "meta": 0,
+      "color": "#87827e"
+    },
+    {
+      "name": "Железные леса",
+      "uid": "IC2:blockIronScaffold",
+      "meta": 0,
+      "color": "#acaba8"
+    },
+    {
+      "name": "Железные прутья",
+      "uid": "minecraft:iron_bars",
+      "meta": 0,
+      "color": "#6d6c6a",
+      "alpha": 0.4
+    },
+    {
+      "name": "Железный блок",
+      "uid": "minecraft:iron_block",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "Железный забор",
+      "uid": "IC2:blockFenceIron",
+      "meta": 0,
+      "color": "#e7e7e7"
+    },
+    {
+      "name": "Железный сундук",
+      "uid": "IronChest:BlockIronChest",
+      "meta": 0,
+      "color": "#c6d5d6"
+    },
+    {
+      "name": "Желтая шерсть",
+      "uid": "minecraft:wool",
+      "meta": 4,
+      "color": "#b1a627"
+    },
+    {
+      "name": "Жидкая материя",
+      "uid": "IC2:fluidUuMatter",
+      "meta": 0,
+      "color": "#3a0531",
+      "alpha": 0.3
+    },
+    {
+      "name": "Жидкостный компрессор",
+      "uid": "bcadditions:blockFluidicCompressor",
+      "meta": 0,
+      "color": "#c1c1c1"
+    },
+    {
+      "name": "Жидкостный распределитель",
+      "uid": "IC2:blockMachine3",
+      "meta": 4,
+      "color": "#adbbb5"
+    },
+    {
+      "name": "Жидкостный теплообменник",
+      "uid": "IC2:blockMachine2",
+      "meta": 12,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Жидкостный термогенератор",
+      "uid": "IC2:blockHeatGenerator",
+      "meta": 1,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Жидкостный/Твердотельный наполняющий механизм",
+      "uid": "IC2:blockMachine",
+      "meta": 6,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Жёлтая обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 4,
+      "color": "#ba8523"
+    },
+    {
+      "name": "Жёлтая стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 4,
+      "color": "#e5e533",
+      "alpha": 0.4
+    },
+    {
+      "name": "Жёлтое стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 4,
+      "color": "#e5e533",
+      "alpha": 0.4
+    },
+    {
+      "name": "Жёлтый ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 4,
+      "color": "#b1a627"
+    },
+    {
+      "name": "Жёрдочки",
+      "uid": "IC2:blockCrop",
+      "meta": 0,
+      "color": "#684e1e"
+    },
+    {
+      "name": "Забор",
+      "uid": "minecraft:fence",
+      "meta": 0,
+      "color": "#9c7f4e",
+      "alpha": 0.4
+    },
+    {
+      "name": "Замшелые каменные кирпичи",
+      "uid": "minecraft:stonebrick",
+      "meta": 1,
+      "color": "#72776a"
+    },
+    {
+      "name": "Замшелый булыжник",
+      "uid": "minecraft:mossy_cobblestone",
+      "meta": 0,
+      "color": "#677967"
+    },
+    {
+      "name": "Заполнитель",
+      "uid": "BuildCraft|Builders:fillerBlock",
+      "meta": 0,
+      "color": "#c1c1c1"
+    },
+    {
+      "name": "Зарядная станция",
+      "uid": "bcadditions:blockChargingStation",
+      "meta": 0,
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "Заряжающая плита (Энергохранилище)",
+      "uid": "IC2:blockChargepad",
+      "meta": 0,
+      "color": "#503f28"
+    },
+    {
+      "name": "Заряжающая плита (Энергохранилище)",
+      "uid": "IC2:blockChargepad",
+      "meta": 1,
+      "color": "#794019"
+    },
+    {
+      "name": "Заряжающая плита (Энергохранилище)",
+      "uid": "IC2:blockChargepad",
+      "meta": 2,
+      "color": "#8b9090"
+    },
+    {
+      "name": "Заряжающая плита (Энергохранилище)",
+      "uid": "IC2:blockChargepad",
+      "meta": 3,
+      "color": "#917b7b"
+    },
+    {
+      "name": "Зеленая шерсть",
+      "uid": "minecraft:wool",
+      "meta": 13,
+      "color": "#35461b"
+    },
+    {
+      "name": "Зелёная обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 13,
+      "color": "#4c532a"
+    },
+    {
+      "name": "Зелёная стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 13,
+      "color": "#667f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Зелёное стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 13,
+      "color": "#667f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Зелёный ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 13,
+      "color": "#35461b"
+    },
+    {
+      "name": "Земля",
+      "uid": "minecraft:dirt",
+      "meta": 0,
+      "color": "#866043"
+    },
+    {
+      "name": "Земля",
+      "uid": "minecraft:dirt",
+      "meta": 2,
+      "color": "#5a3f1c"
+    },
+    {
+      "name": "Золотая руда",
+      "uid": "minecraft:gold_ore",
+      "meta": 0,
+      "color": "#8f8b7c"
+    },
+    {
+      "name": "Золотой блок",
+      "uid": "minecraft:gold_block",
+      "meta": 0,
+      "color": "#f9ec4e"
+    },
+    {
+      "name": "Золотой сундук",
+      "uid": "IronChest:BlockIronChest",
+      "meta": 1,
+      "color": "#c5d43d"
+    },
+    {
+      "name": "Изумрудная руда",
+      "uid": "minecraft:emerald_ore",
+      "meta": 0,
+      "color": "#6d8074"
+    },
+    {
+      "name": "Изумрудный блок",
+      "uid": "minecraft:emerald_block",
+      "meta": 0,
+      "color": "#51d975"
+    },
+    {
+      "name": "Индукционная печь",
+      "uid": "IC2:blockMachine",
+      "meta": 13,
+      "color": "#c3cbcb"
+    },
+    {
+      "name": "Инициатор запроса",
+      "uid": "BuildCraft|Robotics:requester",
+      "meta": 0,
+      "color": "#bfbfbf"
+    },
+    {
+      "name": "Источник воды",
+      "uid": "BuildCraft|Core:eternalSpring",
+      "meta": 0,
+      "color": "#535353"
+    },
+    {
+      "name": "Источник нефти",
+      "uid": "BuildCraft|Core:eternalSpring",
+      "meta": 1,
+      "color": "#535353"
+    },
+    {
+      "name": "Какао",
+      "uid": "minecraft:cocoa",
+      "meta": 0,
+      "color": "#91501e"
+    },
+    {
+      "name": "Кактус",
+      "uid": "minecraft:cactus",
+      "meta": 0,
+      "color": "#0d6618"
+    },
+    {
+      "name": "Калитка",
+      "uid": "minecraft:fence_gate",
+      "meta": 0,
+      "color": "#9c7f4e",
+      "alpha": 0.4
+    },
+    {
+      "name": "Каменная ограда",
+      "uid": "minecraft:cobblestone_wall",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Каменная плита",
+      "uid": "minecraft:stone_slab",
+      "meta": 0,
+      "color": "#9f9f9f"
+    },
+    {
+      "name": "Каменные кирпичи",
+      "uid": "minecraft:stonebrick",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Камень",
+      "uid": "minecraft:stone",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Камень с монстрами",
+      "uid": "minecraft:monster_egg",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Камень с монстрами",
+      "uid": "minecraft:monster_egg",
+      "meta": 1,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Камень с монстрами",
+      "uid": "minecraft:monster_egg",
+      "meta": 2,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Камень с монстрами",
+      "uid": "minecraft:monster_egg",
+      "meta": 3,
+      "color": "#72776a"
+    },
+    {
+      "name": "Камень с монстрами",
+      "uid": "minecraft:monster_egg",
+      "meta": 4,
+      "color": "#767676"
+    },
+    {
+      "name": "Камень с монстрами",
+      "uid": "minecraft:monster_egg",
+      "meta": 5,
+      "color": "#767676"
+    },
+    {
+      "name": "Каркас",
+      "uid": "BuildCraft|Builders:frameBlock",
+      "meta": 0,
+      "color": "#9d6128",
+      "alpha": 0.4
+    },
+    {
+      "name": "Картофель",
+      "uid": "minecraft:potatoes",
+      "meta": 0,
+      "color": "#01ab10"
+    },
+    {
+      "name": "Карьер",
+      "uid": "BuildCraft|Builders:machineBlock",
+      "meta": 0,
+      "color": "#c1c1c1"
+    },
+    {
+      "name": "Катушка Теслы",
+      "uid": "IC2:blockMachine2",
+      "meta": 1,
+      "color": "#484c4d"
+    },
+    {
+      "name": "Квантовая солнечная панель",
+      "uid": "AdvancedSolarPanel:BlockAdvSolarPanel",
+      "meta": 3,
+      "color": "#264142"
+    },
+    {
+      "name": "Квантовый генератор",
+      "uid": "AdvancedSolarPanel:BlockAdvSolarPanel",
+      "meta": 4,
+      "color": "#421c20"
+    },
+    {
+      "name": "Кварцевая колонна",
+      "uid": "minecraft:quartz_block",
+      "meta": 2,
+      "color": "#e8e5dd"
+    },
+    {
+      "name": "Кварцевая плита",
+      "uid": "minecraft:stone_slab",
+      "meta": 7,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "Кварцевая руда",
+      "uid": "minecraft:quartz_ore",
+      "meta": 0,
+      "color": "#7d544f"
+    },
+    {
+      "name": "Кварцевые ступеньки",
+      "uid": "minecraft:quartz_stairs",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "Кварцевый блок",
+      "uid": "minecraft:quartz_block",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "Кинетическая катушка",
+      "uid": "bcadditions:blockCoilKinetic",
+      "meta": 0,
+      "color": "#2c292d"
+    },
+    {
+      "name": "Кинетический ветрогенератор",
+      "uid": "IC2:blockKineticGenerator",
+      "meta": 0,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Кинетический генератор",
+      "uid": "IC2:blockGenerator",
+      "meta": 9,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Кинетический гидрогенератор",
+      "uid": "IC2:blockKineticGenerator",
+      "meta": 4,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Кинетический парогенератор",
+      "uid": "IC2:blockKineticGenerator",
+      "meta": 1,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Кинетическое энергохранилище",
+      "uid": "bcadditions:KEBT1",
+      "meta": 0,
+      "color": "#7f7f7f"
+    },
+    {
+      "name": "Кинетическое энергохранилище",
+      "uid": "bcadditions:KEBT1",
+      "meta": 9,
+      "color": "#8ba09b"
+    },
+    {
+      "name": "Кирпичи",
+      "uid": "minecraft:brick_block",
+      "meta": 0,
+      "color": "#926356"
+    },
+    {
+      "name": "Кирпичная плита",
+      "uid": "minecraft:stone_slab",
+      "meta": 4,
+      "color": "#926356"
+    },
+    {
+      "name": "Кирпичные ступеньки",
+      "uid": "minecraft:brick_stairs",
+      "meta": 0,
+      "color": "#926356"
+    },
+    {
+      "name": "Клапан градирни",
+      "uid": "bcadditions:blockCoolingTowerValve",
+      "meta": 0,
+      "color": "#333333"
+    },
+    {
+      "name": "Клапан нефтеперегонной вышки",
+      "uid": "bcadditions:refineryValve",
+      "meta": 0,
+      "color": "#333333"
+    },
+    {
+      "name": "Книжная полка",
+      "uid": "minecraft:bookshelf",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Кнопка",
+      "uid": "minecraft:stone_button",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Кнопка",
+      "uid": "minecraft:wooden_button",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 0,
+      "color": "#dddddd"
+    },
+    {
+      "name": "Командный блок",
+      "uid": "minecraft:command_block",
+      "meta": 0,
+      "color": "#b2896f"
+    },
+    {
+      "name": "Компаратор",
+      "uid": "minecraft:powered_comparator",
+      "meta": 0,
+      "color": "#a59594"
+    },
+    {
+      "name": "Компаратор",
+      "uid": "minecraft:unpowered_comparator",
+      "meta": 0,
+      "color": "#9c9695"
+    },
+    {
+      "name": "Компрессор",
+      "uid": "IC2:blockMachine",
+      "meta": 5,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Конденсатор",
+      "uid": "IC2:blockMachine2",
+      "meta": 15,
+      "color": "#909192"
+    },
+    {
+      "name": "Консервирующий механизм",
+      "uid": "IC2:blockMachine2",
+      "meta": 9,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Коричневая обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 12,
+      "color": "#4d3323"
+    },
+    {
+      "name": "Коричневая стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 12,
+      "color": "#664c33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Коричневая шерсть",
+      "uid": "minecraft:wool",
+      "meta": 12,
+      "color": "#4f321f"
+    },
+    {
+      "name": "Коричневое стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 12,
+      "color": "#664c33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Коричневый ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 12,
+      "color": "#4f321f"
+    },
+    {
+      "name": "Котёл",
+      "uid": "minecraft:cauldron",
+      "meta": 0,
+      "color": "#454545"
+    },
+    {
+      "name": "Красная обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 14,
+      "color": "#8f3d2e"
+    },
+    {
+      "name": "Красная пыль",
+      "uid": "minecraft:lit_redstone_ore",
+      "meta": 0,
+      "color": "#846b6b"
+    },
+    {
+      "name": "Красная пыль",
+      "uid": "minecraft:redstone_wire",
+      "meta": 0,
+      "color": "#efefef"
+    },
+    {
+      "name": "Красная руда",
+      "uid": "minecraft:redstone_ore",
+      "meta": 0,
+      "color": "#846b6b"
+    },
+    {
+      "name": "Красная стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 14,
+      "color": "#993333",
+      "alpha": 0.4
+    },
+    {
+      "name": "Красная шерсть",
+      "uid": "minecraft:wool",
+      "meta": 14,
+      "color": "#963430"
+    },
+    {
+      "name": "Красное стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 14,
+      "color": "#993333",
+      "alpha": 0.4
+    },
+    {
+      "name": "Красный ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 14,
+      "color": "#963430"
+    },
+    {
+      "name": "Красный песок",
+      "uid": "minecraft:sand",
+      "meta": 1,
+      "color": "#a95821"
+    },
+    {
+      "name": "Красный тюльпан",
+      "uid": "minecraft:red_flower",
+      "meta": 4,
+      "color": "#980406"
+    },
+    {
+      "name": "Красный факел",
+      "uid": "minecraft:redstone_torch",
+      "meta": 0,
+      "color": "#a74b29"
+    },
+    {
+      "name": "Красный факел",
+      "uid": "minecraft:unlit_redstone_torch",
+      "meta": 0,
+      "color": "#5d3e26"
+    },
+    {
+      "name": "Кристальный сундук",
+      "uid": "IronChest:BlockIronChest",
+      "meta": 5,
+      "color": "#01a3e4"
+    },
+    {
+      "name": "Кровать",
+      "uid": "minecraft:bed",
+      "meta": 0,
+      "color": "#8e1616"
+    },
+    {
+      "name": "Крюк",
+      "uid": "minecraft:tripwire_hook",
+      "meta": 0,
+      "color": "#8a8171"
+    },
+    {
+      "name": "Кувшинка",
+      "uid": "minecraft:waterlily",
+      "meta": 0,
+      "color": "#767676"
+    },
+    {
+      "name": "Куст",
+      "uid": "minecraft:tallgrass",
+      "meta": 1,
+      "color": "#747474"
+    },
+    {
+      "name": "Куст",
+      "uid": "minecraft:tallgrass",
+      "meta": 2,
+      "color": "#787878"
+    },
+    {
+      "name": "Лава",
+      "uid": "minecraft:flowing_lava",
+      "meta": 0,
+      "color": "#d1530f"
+    },
+    {
+      "name": "Лава",
+      "uid": "minecraft:lava",
+      "meta": 0,
+      "color": "#d1530f"
+    },
+    {
+      "name": "Лавовая катушка",
+      "uid": "bcadditions:blockCoilLava",
+      "meta": 0,
+      "color": "#2c292d"
+    },
+    {
+      "name": "Лазер",
+      "uid": "BuildCraft|Silicon:laserBlock",
+      "meta": 0,
+      "color": "#221e24"
+    },
+    {
+      "name": "Лазуритовая руда",
+      "uid": "minecraft:lapis_ore",
+      "meta": 0,
+      "color": "#667086"
+    },
+    {
+      "name": "Лаймовая обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 5,
+      "color": "#677534"
+    },
+    {
+      "name": "Лаймовая стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 5,
+      "color": "#7fcc19",
+      "alpha": 0.4
+    },
+    {
+      "name": "Лаймовая шерсть",
+      "uid": "minecraft:wool",
+      "meta": 5,
+      "color": "#41ae38"
+    },
+    {
+      "name": "Лаймовое стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 5,
+      "color": "#7fcc19",
+      "alpha": 0.4
+    },
+    {
+      "name": "Лаймовый ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 5,
+      "color": "#41ae38"
+    },
+    {
+      "name": "Лампа",
+      "uid": "minecraft:lit_redstone_lamp",
+      "meta": 0,
+      "color": "#775937"
+    },
+    {
+      "name": "Лампа",
+      "uid": "minecraft:redstone_lamp",
+      "meta": 0,
+      "color": "#462b1a"
+    },
+    {
+      "name": "Леса",
+      "uid": "IC2:blockScaffold",
+      "meta": 0,
+      "color": "#927749"
+    },
+    {
+      "name": "Лестница",
+      "uid": "minecraft:ladder",
+      "meta": 0,
+      "color": "#795f34"
+    },
+    {
+      "name": "Липкий поршень",
+      "uid": "minecraft:sticky_piston",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "Листва гевеи",
+      "uid": "IC2:blockRubLeaves",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "Листья акации",
+      "uid": "minecraft:leaves2",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "Листья акации",
+      "uid": "minecraft:leaves2",
+      "meta": 1,
+      "color": "#878787"
+    },
+    {
+      "name": "Листья тропического дерева",
+      "uid": "minecraft:leaves",
+      "meta": 3,
+      "color": "#918e86"
+    },
+    {
+      "name": "Личный сейф",
+      "uid": "IC2:blockPersonal",
+      "meta": 0,
+      "color": "#b9c6ca"
+    },
+    {
+      "name": "Лоза",
+      "uid": "minecraft:vine",
+      "meta": 0,
+      "color": "#6f6f6f",
+      "alpha": 0.2
+    },
+    {
+      "name": "Лук",
+      "uid": "minecraft:red_flower",
+      "meta": 2,
+      "color": "#8549b6"
+    },
+    {
+      "name": "Люк",
+      "uid": "minecraft:trapdoor",
+      "meta": 0,
+      "color": "#7e5d2d"
+    },
+    {
+      "name": "Лёд",
+      "uid": "minecraft:ice",
+      "meta": 0,
+      "color": "#7dadff",
+      "alpha": 0.8
+    },
+    {
+      "name": "МФЭ",
+      "uid": "IC2:blockElectric",
+      "meta": 1,
+      "color": "#bcc3c4"
+    },
+    {
+      "name": "МФЭХ",
+      "uid": "IC2:blockElectric",
+      "meta": 2,
+      "color": "#c59d9d"
+    },
+    {
+      "name": "МЭХ",
+      "uid": "IC2:blockElectric",
+      "meta": 7,
+      "color": "#a24f14"
+    },
+    {
+      "name": "Мак",
+      "uid": "minecraft:red_flower",
+      "meta": 0,
+      "color": "#980406"
+    },
+    {
+      "name": "Маяк",
+      "uid": "minecraft:beacon",
+      "meta": 0,
+      "color": "#74ddd7",
+      "alpha": 0.4
+    },
+    {
+      "name": "Медная руда",
+      "uid": "IC2:blockOreCopper",
+      "meta": 0,
+      "color": "#847971"
+    },
+    {
+      "name": "Медный блок",
+      "uid": "IC2:blockMetal",
+      "meta": 0,
+      "color": "#8e4d1a"
+    },
+    {
+      "name": "Медный сундук",
+      "uid": "IronChest:BlockIronChest",
+      "meta": 3,
+      "color": "#ddb89a"
+    },
+    {
+      "name": "Мертвый куст",
+      "uid": "minecraft:deadbush",
+      "meta": 0,
+      "color": "#7b4f19"
+    },
+    {
+      "name": "Металлоформовочный механизм",
+      "uid": "IC2:blockMachine2",
+      "meta": 4,
+      "color": "#898e8f"
+    },
+    {
+      "name": "Метка",
+      "uid": "BuildCraft|Core:markerBlock",
+      "meta": 0,
+      "color": "#70829a"
+    },
+    {
+      "name": "Механический дробитель",
+      "uid": "bcadditions:blockDusterMechanical",
+      "meta": 0,
+      "color": "#aaaaaa"
+    },
+    {
+      "name": "Мицелий",
+      "uid": "minecraft:mycelium",
+      "meta": 0,
+      "color": "#6f6369"
+    },
+    {
+      "name": "Морковь",
+      "uid": "minecraft:carrots",
+      "meta": 0,
+      "color": "#01ab10"
+    },
+    {
+      "name": "Нагревательная печь",
+      "uid": "bcadditions:blockHeatedFurnace",
+      "meta": 0,
+      "color": "#9d9b97"
+    },
+    {
+      "name": "Нажимная плита",
+      "uid": "minecraft:stone_pressure_plate",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Нажимная плита",
+      "uid": "minecraft:wooden_pressure_plate",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Наковальня",
+      "uid": "minecraft:anvil",
+      "meta": 0,
+      "color": "#404040"
+    },
+    {
+      "name": "Наковальня",
+      "uid": "minecraft:anvil",
+      "meta": 1,
+      "color": "#404040"
+    },
+    {
+      "name": "Наковальня",
+      "uid": "minecraft:anvil",
+      "meta": 2,
+      "color": "#404040"
+    },
+    {
+      "name": "Намагничиватель",
+      "uid": "IC2:blockMachine",
+      "meta": 9,
+      "color": "#a2aaac"
+    },
+    {
+      "name": "Направляющая Метка",
+      "uid": "BuildCraft|Core:pathMarkerBlock",
+      "meta": 0,
+      "color": "#8d9958"
+    },
+    {
+      "name": "Нефтеперегонная вышка",
+      "uid": "BuildCraft|Factory:refineryBlock",
+      "meta": 0,
+      "color": "#7d0303"
+    },
+    {
+      "name": "Нефть",
+      "uid": "BuildCraft|Energy:blockOil",
+      "meta": 0,
+      "color": "#030303",
+      "alpha": 0.3
+    },
+    {
+      "name": "Нить",
+      "uid": "minecraft:tripwire",
+      "meta": 0,
+      "color": "#818181"
+    },
+    {
+      "name": "Нотный блок",
+      "uid": "minecraft:noteblock",
+      "meta": 0,
+      "color": "#644332"
+    },
+    {
+      "name": "Обожжёная глина",
+      "uid": "minecraft:hardened_clay",
+      "meta": 0,
+      "color": "#965c42"
+    },
+    {
+      "name": "Обсидиан",
+      "uid": "minecraft:obsidian",
+      "meta": 0,
+      "color": "#14121d"
+    },
+    {
+      "name": "Обсидиановый сундук",
+      "uid": "IronChest:BlockIronChest",
+      "meta": 6,
+      "color": "#12111a"
+    },
+    {
+      "name": "Обшивка продвинутого кинетического энергохранилища",
+      "uid": "bcadditions:KEBT3Plating",
+      "meta": 0,
+      "color": "#b7b7b7"
+    },
+    {
+      "name": "Огонь",
+      "uid": "minecraft:fire",
+      "meta": 0,
+      "color": "#d18629"
+    },
+    {
+      "name": "Ограда из замшелого булыжника",
+      "uid": "minecraft:cobblestone_wall",
+      "meta": 1,
+      "color": "#677967"
+    },
+    {
+      "name": "Одуванчик",
+      "uid": "minecraft:yellow_flower",
+      "meta": 0,
+      "color": "#afb401"
+    },
+    {
+      "name": "Оловянная руда",
+      "uid": "IC2:blockOreTin",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "Оловянный блок",
+      "uid": "IC2:blockMetal",
+      "meta": 1,
+      "color": "#c1c1c1"
+    },
+    {
+      "name": "Оранжевая обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 1,
+      "color": "#a15325"
+    },
+    {
+      "name": "Оранжевая стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 1,
+      "color": "#d87f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Оранжевая шерсть",
+      "uid": "minecraft:wool",
+      "meta": 1,
+      "color": "#db7d3e"
+    },
+    {
+      "name": "Оранжевое стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 1,
+      "color": "#d87f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "Оранжевый ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 1,
+      "color": "#db7d3e"
+    },
+    {
+      "name": "Оранжевый тюльпан",
+      "uid": "minecraft:red_flower",
+      "meta": 5,
+      "color": "#a3581a"
+    },
+    {
+      "name": "Основа продвинутого кинетического энергохранилища",
+      "uid": "bcadditions:KEBT3Core",
+      "meta": 0,
+      "color": "#8d9792"
+    },
+    {
+      "name": "Основная катушка",
+      "uid": "bcadditions:blockCoilBasic",
+      "meta": 0,
+      "color": "#2c292d"
+    },
+    {
+      "name": "Основной дробитель",
+      "uid": "bcadditions:blockDusterBasic",
+      "meta": 0,
+      "color": "#4c4c4c"
+    },
+    {
+      "name": "Основной корпус механизма",
+      "uid": "IC2:blockMachine",
+      "meta": 0,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Пар",
+      "uid": "IC2:fluidSteam",
+      "meta": 0,
+      "color": "#bbbbbb"
+    },
+    {
+      "name": "Парогенератор",
+      "uid": "IC2:blockMachine3",
+      "meta": 0,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Паутина",
+      "uid": "minecraft:web",
+      "meta": 0,
+      "color": "#dcdcdc"
+    },
+    {
+      "name": "Пашня",
+      "uid": "minecraft:farmland",
+      "meta": 0,
+      "color": "#734b2d"
+    },
+    {
+      "name": "Перегретый пар",
+      "uid": "IC2:fluidSuperheatedSteam",
+      "meta": 0,
+      "color": "#c9d0d0"
+    },
+    {
+      "name": "Песок",
+      "uid": "minecraft:sand",
+      "meta": 0,
+      "color": "#dbd3a0"
+    },
+    {
+      "name": "Песок душ",
+      "uid": "minecraft:soul_sand",
+      "meta": 0,
+      "color": "#544033"
+    },
+    {
+      "name": "Песчаник",
+      "uid": "minecraft:sandstone",
+      "meta": 0,
+      "color": "#dad29e"
+    },
+    {
+      "name": "Печь",
+      "uid": "minecraft:furnace",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "Печь",
+      "uid": "minecraft:lit_furnace",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "Пион",
+      "uid": "minecraft:double_plant",
+      "meta": 5,
+      "color": "#85868e"
+    },
+    {
+      "name": "Планировщик зон",
+      "uid": "BuildCraft|Robotics:zonePlan",
+      "meta": 0,
+      "color": "#c7c7c7"
+    },
+    {
+      "name": "Плита из адского кирпича",
+      "uid": "minecraft:stone_slab",
+      "meta": 6,
+      "color": "#2c161a"
+    },
+    {
+      "name": "Плита из акации",
+      "uid": "minecraft:wooden_slab",
+      "meta": 4,
+      "color": "#a95b33"
+    },
+    {
+      "name": "Плита из булыжника",
+      "uid": "minecraft:stone_slab",
+      "meta": 3,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Плита из каменных кирпичей",
+      "uid": "minecraft:stone_slab",
+      "meta": 5,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Плита из песчаника",
+      "uid": "minecraft:stone_slab",
+      "meta": 1,
+      "color": "#dad29e"
+    },
+    {
+      "name": "Плита из тропического дерева",
+      "uid": "minecraft:wooden_slab",
+      "meta": 3,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "Плита из тёмного дуба",
+      "uid": "minecraft:wooden_slab",
+      "meta": 5,
+      "color": "#3d2712"
+    },
+    {
+      "name": "Плотный лёд",
+      "uid": "minecraft:packed_ice",
+      "meta": 0,
+      "color": "#a5c2f5",
+      "alpha": 0.8
+    },
+    {
+      "name": "Повторитель",
+      "uid": "minecraft:powered_repeater",
+      "meta": 0,
+      "color": "#a09393"
+    },
+    {
+      "name": "Повторитель",
+      "uid": "minecraft:unpowered_repeater",
+      "meta": 0,
+      "color": "#979393"
+    },
+    {
+      "name": "Подсолнух",
+      "uid": "minecraft:double_plant",
+      "meta": 0,
+      "color": "#436f2d"
+    },
+    {
+      "name": "Покрытие нефтеперегонной вышки",
+      "uid": "bcadditions:refinerywals",
+      "meta": 0,
+      "color": "#3f3f3f"
+    },
+    {
+      "name": "Полуавтоматический дробитель",
+      "uid": "bcadditions:blockDusterSemiAutomatic",
+      "meta": 0,
+      "color": "#bcbcbc"
+    },
+    {
+      "name": "Полужидкостный генератор",
+      "uid": "IC2:blockGenerator",
+      "meta": 7,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Помпа",
+      "uid": "BuildCraft|Factory:pumpBlock",
+      "meta": 0,
+      "color": "#a8a8a8"
+    },
+    {
+      "name": "Помпа",
+      "uid": "IC2:blockMachine",
+      "meta": 8,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Портал",
+      "uid": "minecraft:portal",
+      "meta": 0,
+      "color": "#560abe"
+    },
+    {
+      "name": "Портал в Энд",
+      "uid": "minecraft:end_portal_frame",
+      "meta": 0,
+      "color": "#597560"
+    },
+    {
+      "name": "Поршень",
+      "uid": "minecraft:piston",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "Потресканные каменные кирпичи",
+      "uid": "minecraft:stonebrick",
+      "meta": 2,
+      "color": "#767676"
+    },
+    {
+      "name": "Предметный буфер",
+      "uid": "IC2:blockMachine3",
+      "meta": 6,
+      "color": "#a5ac9c"
+    },
+    {
+      "name": "Продвинутая буровая установка",
+      "uid": "IC2:blockMachine2",
+      "meta": 11,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Продвинутый корпус механизма",
+      "uid": "IC2:blockMachine",
+      "meta": 12,
+      "color": "#bfc8c8"
+    },
+    {
+      "name": "Проигрыватель",
+      "uid": "minecraft:jukebox",
+      "meta": 0,
+      "color": "#6b4937"
+    },
+    {
+      "name": "Промышленный динамит",
+      "uid": "IC2:blockITNT",
+      "meta": 0,
+      "color": "#82412f"
+    },
+    {
+      "name": "Пурпурная обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 2,
+      "color": "#95586c"
+    },
+    {
+      "name": "Пурпурная стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 2,
+      "color": "#b24cd8",
+      "alpha": 0.4
+    },
+    {
+      "name": "Пурпурная шерсть",
+      "uid": "minecraft:wool",
+      "meta": 2,
+      "color": "#b350bc"
+    },
+    {
+      "name": "Пурпурное стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 2,
+      "color": "#b24cd8",
+      "alpha": 0.4
+    },
+    {
+      "name": "Пурпурный ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 2,
+      "color": "#b350bc"
+    },
+    {
+      "name": "Радиоизотопный термогенератор",
+      "uid": "IC2:blockHeatGenerator",
+      "meta": 2,
+      "color": "#959fa2"
+    },
+    {
+      "name": "Радиоизотопный термоэлектрический генератор",
+      "uid": "IC2:blockGenerator",
+      "meta": 6,
+      "color": "#919697"
+    },
+    {
+      "name": "Раздатчик",
+      "uid": "minecraft:dispenser",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "Разливочный механизм",
+      "uid": "IC2:blockMachine2",
+      "meta": 10,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Раскидистый папоротник",
+      "uid": "minecraft:double_plant",
+      "meta": 3,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "Рассадник монстров",
+      "uid": "minecraft:mob_spawner",
+      "meta": 0,
+      "color": "#1a2731"
+    },
+    {
+      "name": "Реакторная камера",
+      "uid": "IC2:blockReactorChamber",
+      "meta": 0,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Реакторный корпус",
+      "uid": "IC2:blockreactorvessel",
+      "meta": 0,
+      "color": "#99a08a"
+    },
+    {
+      "name": "Реакторный люк",
+      "uid": "IC2:blockReactorAccessHatch",
+      "meta": 0,
+      "color": "#9aa28b"
+    },
+    {
+      "name": "Реакторный насос",
+      "uid": "IC2:blockReactorFluidPort",
+      "meta": 0,
+      "color": "#8f917e"
+    },
+    {
+      "name": "Реакторный проводник красного сигнала",
+      "uid": "IC2:blockReactorRedstonePort",
+      "meta": 0,
+      "color": "#96927e"
+    },
+    {
+      "name": "Регулятор жидкости",
+      "uid": "IC2:blockMachine2",
+      "meta": 14,
+      "color": "#aab2b4"
+    },
+    {
+      "name": "Режущий механизм",
+      "uid": "IC2:blockMachine3",
+      "meta": 2,
+      "color": "#bfc8c8"
+    },
+    {
+      "name": "Резиновый лист",
+      "uid": "IC2:blockRubber",
+      "meta": 0,
+      "color": "#323232"
+    },
+    {
+      "name": "Резной кварцевый блок",
+      "uid": "minecraft:quartz_block",
+      "meta": 1,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "Резной песчаник",
+      "uid": "minecraft:sandstone",
+      "meta": 1,
+      "color": "#dad29e"
+    },
+    {
+      "name": "Резные каменные кирпичи",
+      "uid": "minecraft:stonebrick",
+      "meta": 3,
+      "color": "#767676"
+    },
+    {
+      "name": "Рельсы",
+      "uid": "minecraft:rail",
+      "meta": 0,
+      "color": "#796c58"
+    },
+    {
+      "name": "Рельсы с датчиком",
+      "uid": "minecraft:detector_rail",
+      "meta": 0,
+      "color": "#786559"
+    },
+    {
+      "name": "Репликатор",
+      "uid": "IC2:blockMachine2",
+      "meta": 8,
+      "color": "#a9a9b0"
+    },
+    {
+      "name": "Розовая обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 6,
+      "color": "#a14e4e"
+    },
+    {
+      "name": "Розовая стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 6,
+      "color": "#f27fa5",
+      "alpha": 0.4
+    },
+    {
+      "name": "Розовая шерсть",
+      "uid": "minecraft:wool",
+      "meta": 6,
+      "color": "#d08499"
+    },
+    {
+      "name": "Розовое стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 6,
+      "color": "#f27fa5",
+      "alpha": 0.4
+    },
+    {
+      "name": "Розовый ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 6,
+      "color": "#d08499"
+    },
+    {
+      "name": "Розовый куст",
+      "uid": "minecraft:double_plant",
+      "meta": 4,
+      "color": "#733d07"
+    },
+    {
+      "name": "Розовый тюльпан",
+      "uid": "minecraft:red_flower",
+      "meta": 7,
+      "color": "#b09ab0"
+    },
+    {
+      "name": "Ромашка",
+      "uid": "minecraft:red_flower",
+      "meta": 8,
+      "color": "#b3b3b3"
+    },
+    {
+      "name": "Рудопромывочный механизм",
+      "uid": "IC2:blockMachine2",
+      "meta": 5,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Ручной кинетический генератор",
+      "uid": "IC2:blockKineticGenerator",
+      "meta": 3,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Рычаг",
+      "uid": "minecraft:lever",
+      "meta": 0,
+      "color": "#6a5940"
+    },
+    {
+      "name": "Саженец акации",
+      "uid": "minecraft:sapling",
+      "meta": 4,
+      "color": "#727314"
+    },
+    {
+      "name": "Саженец берёзы",
+      "uid": "minecraft:sapling",
+      "meta": 2,
+      "color": "#769654"
+    },
+    {
+      "name": "Саженец гевеи",
+      "uid": "IC2:blockRubSapling",
+      "meta": 0,
+      "color": "#424527"
+    },
+    {
+      "name": "Саженец дуба",
+      "uid": "minecraft:sapling",
+      "meta": 0,
+      "color": "#476625"
+    },
+    {
+      "name": "Саженец ели",
+      "uid": "minecraft:sapling",
+      "meta": 1,
+      "color": "#333a21"
+    },
+    {
+      "name": "Саженец тропического дерева",
+      "uid": "minecraft:sapling",
+      "meta": 3,
+      "color": "#305612"
+    },
+    {
+      "name": "Саженец тёмного дуба",
+      "uid": "minecraft:sapling",
+      "meta": 5,
+      "color": "#38561c"
+    },
+    {
+      "name": "Сахарный тростник",
+      "uid": "minecraft:reeds",
+      "meta": 0,
+      "color": "#94c065"
+    },
+    {
+      "name": "Сборочный верстак",
+      "uid": "BuildCraft|Silicon:laserTableBlock",
+      "meta": 1,
+      "color": "#322d32"
+    },
+    {
+      "name": "Сборочный стол",
+      "uid": "BuildCraft|Silicon:laserTableBlock",
+      "meta": 0,
+      "color": "#352c33"
+    },
+    {
+      "name": "Сборщик урожая",
+      "uid": "IC2:blockMachine3",
+      "meta": 7,
+      "color": "#b9bfc0"
+    },
+    {
+      "name": "Светильник Джека",
+      "uid": "minecraft:lit_pumpkin",
+      "meta": 0,
+      "color": "#c07615"
+    },
+    {
+      "name": "Светло-серая обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 8,
+      "color": "#876a61"
+    },
+    {
+      "name": "Светло-серая стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 8,
+      "color": "#999999",
+      "alpha": 0.4
+    },
+    {
+      "name": "Светло-серая шерсть",
+      "uid": "minecraft:wool",
+      "meta": 8,
+      "color": "#9aa1a1"
+    },
+    {
+      "name": "Светло-серое стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 8,
+      "color": "#999999",
+      "alpha": 0.4
+    },
+    {
+      "name": "Светло-серый ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 8,
+      "color": "#9aa1a1"
+    },
+    {
+      "name": "Светящийся камень",
+      "uid": "minecraft:glowstone",
+      "meta": 0,
+      "color": "#8f7645",
+      "alpha": 0.4
+    },
+    {
+      "name": "Свинцовая руда",
+      "uid": "IC2:blockOreLead",
+      "meta": 0,
+      "color": "#818384"
+    },
+    {
+      "name": "Свинцовый блок",
+      "uid": "IC2:blockMetal",
+      "meta": 4,
+      "color": "#a3aa91"
+    },
+    {
+      "name": "Семена пшеницы",
+      "uid": "minecraft:wheat",
+      "meta": 0,
+      "color": "#00b312"
+    },
+    {
+      "name": "Серая обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 7,
+      "color": "#392a23"
+    },
+    {
+      "name": "Серая стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 7,
+      "color": "#4c4c4c",
+      "alpha": 0.4
+    },
+    {
+      "name": "Серая шерсть",
+      "uid": "minecraft:wool",
+      "meta": 7,
+      "color": "#404040"
+    },
+    {
+      "name": "Серебряный сундук",
+      "uid": "IronChest:BlockIronChest",
+      "meta": 4,
+      "color": "#c5cac5"
+    },
+    {
+      "name": "Серое стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 7,
+      "color": "#4c4c4c",
+      "alpha": 0.4
+    },
+    {
+      "name": "Серый ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 7,
+      "color": "#404040"
+    },
+    {
+      "name": "Синее стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 11,
+      "color": "#334cb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "Синий ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 11,
+      "color": "#2e388d"
+    },
+    {
+      "name": "Синяя обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 11,
+      "color": "#4a3b5b"
+    },
+    {
+      "name": "Синяя орхидея",
+      "uid": "minecraft:red_flower",
+      "meta": 1,
+      "color": "#1e7eb6"
+    },
+    {
+      "name": "Синяя стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 11,
+      "color": "#334cb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "Синяя шерсть",
+      "uid": "minecraft:wool",
+      "meta": 11,
+      "color": "#2e388d"
+    },
+    {
+      "name": "Сирень",
+      "uid": "minecraft:double_plant",
+      "meta": 1,
+      "color": "#94948c"
+    },
+    {
+      "name": "Сканер",
+      "uid": "IC2:blockMachine2",
+      "meta": 7,
+      "color": "#b7bcb8"
+    },
+    {
+      "name": "Снег",
+      "uid": "minecraft:snow",
+      "meta": 0,
+      "color": "#effbfb"
+    },
+    {
+      "name": "Снег",
+      "uid": "minecraft:snow_layer",
+      "meta": 0,
+      "color": "#effbfb"
+    },
+    {
+      "name": "Сноп сена",
+      "uid": "minecraft:hay_block",
+      "meta": 0,
+      "color": "#a88b10"
+    },
+    {
+      "name": "Солнечная панель",
+      "uid": "IC2:blockGenerator",
+      "meta": 3,
+      "color": "#2d2b47"
+    },
+    {
+      "name": "Солнечный опреснитель",
+      "uid": "IC2:blockMachine3",
+      "meta": 3,
+      "color": "#2b2b33"
+    },
+    {
+      "name": "Сортинатор",
+      "uid": "bcadditions:blockItemSorter",
+      "meta": 0,
+      "color": "#949494"
+    },
+    {
+      "name": "Стекло",
+      "uid": "minecraft:glass",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "Стеклянная панель",
+      "uid": "minecraft:glass_pane",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "Стены градирни",
+      "uid": "bcadditions:blockCoolingTowerWalls)",
+      "meta": 0,
+      "color": "#3f3f3f"
+    },
+    {
+      "name": "Стол архитектора",
+      "uid": "BuildCraft|Builders:architectBlock",
+      "meta": 0,
+      "color": "#c9c9c9"
+    },
+    {
+      "name": "Стол зачарований",
+      "uid": "minecraft:enchanting_table",
+      "meta": 0,
+      "color": "#67403b"
+    },
+    {
+      "name": "Стол интеграции",
+      "uid": "BuildCraft|Silicon:laserTableBlock",
+      "meta": 2,
+      "color": "#2e292e"
+    },
+    {
+      "name": "Стол подзарядки",
+      "uid": "BuildCraft|Silicon:laserTableBlock",
+      "meta": 3,
+      "color": "#2d262d"
+    },
+    {
+      "name": "Стол программирования",
+      "uid": "BuildCraft|Silicon:laserTableBlock",
+      "meta": 4,
+      "color": "#343435"
+    },
+    {
+      "name": "Стол штамповки",
+      "uid": "BuildCraft|Silicon:laserTableBlock",
+      "meta": 5,
+      "color": "#2f2a30"
+    },
+    {
+      "name": "Строитель",
+      "uid": "BuildCraft|Builders:builderBlock",
+      "meta": 0,
+      "color": "#a8a8a8"
+    },
+    {
+      "name": "Строительная метка",
+      "uid": "BuildCraft|Builders:constructionMarkerBlock",
+      "meta": 0,
+      "color": "#ac9a5e"
+    },
+    {
+      "name": "Строительная пена",
+      "uid": "IC2:blockFoam",
+      "meta": 0,
+      "color": "#f0efee"
+    },
+    {
+      "name": "Строительная пена",
+      "uid": "IC2:fluidConstructionFoam",
+      "meta": 0,
+      "color": "#1f1f1f",
+      "alpha": 0.3
+    },
+    {
+      "name": "Ступеньки из булыжника",
+      "uid": "minecraft:stone_stairs",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Ступеньки из древесины акации",
+      "uid": "minecraft:acacia_stairs",
+      "meta": 0,
+      "color": "#a95b33"
+    },
+    {
+      "name": "Ступеньки из каменного кирпича",
+      "uid": "minecraft:stone_brick_stairs",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "Ступеньки из песчаника",
+      "uid": "minecraft:sandstone_stairs",
+      "meta": 0,
+      "color": "#dad29e"
+    },
+    {
+      "name": "Ступеньки из тропической древесины",
+      "uid": "minecraft:jungle_stairs",
+      "meta": 0,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "Ступеньки из тёмного дуба",
+      "uid": "minecraft:dark_oak_stairs",
+      "meta": 0,
+      "color": "#3d2712"
+    },
+    {
+      "name": "Сундук",
+      "uid": "minecraft:chest",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Сундук Эндера",
+      "uid": "minecraft:ender_chest",
+      "meta": 0,
+      "color": "#14121d"
+    },
+    {
+      "name": "Сундук-ловушка",
+      "uid": "minecraft:trapped_chest",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Табличка",
+      "uid": "minecraft:standing_sign",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Табличка",
+      "uid": "minecraft:wall_sign",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "Твердотельный термогенератор",
+      "uid": "IC2:blockHeatGenerator",
+      "meta": 0,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Телепортер",
+      "uid": "IC2:blockMachine2",
+      "meta": 0,
+      "color": "#90bdc2"
+    },
+    {
+      "name": "Термальная центрифуга",
+      "uid": "IC2:blockMachine2",
+      "meta": 3,
+      "color": "#b4bbbb"
+    },
+    {
+      "name": "Терраформер",
+      "uid": "IC2:blockMachine",
+      "meta": 15,
+      "color": "#bfc8c8"
+    },
+    {
+      "name": "Токарный стол",
+      "uid": "IC2:blockMachine3",
+      "meta": 8,
+      "color": "#7d8182"
+    },
+    {
+      "name": "Топливо",
+      "uid": "BuildCraft|Energy:blockFuel",
+      "meta": 0,
+      "color": "#938e00",
+      "alpha": 0.3
+    },
+    {
+      "name": "Топливо (Газ)",
+      "uid": "bcadditions:fuelgasBlock",
+      "meta": 0,
+      "color": "#938e00",
+      "alpha": 0.3
+    },
+    {
+      "name": "Торговый аппарат",
+      "uid": "IC2:blockPersonal",
+      "meta": 1,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Трансформатор ВН",
+      "uid": "IC2:blockElectric",
+      "meta": 5,
+      "color": "#bb8782"
+    },
+    {
+      "name": "Трансформатор НН",
+      "uid": "IC2:blockElectric",
+      "meta": 3,
+      "color": "#5b472c"
+    },
+    {
+      "name": "Трансформатор СВН",
+      "uid": "IC2:blockElectric",
+      "meta": 6,
+      "color": "#c7c980"
+    },
+    {
+      "name": "Трансформатор СН",
+      "uid": "IC2:blockElectric",
+      "meta": 4,
+      "color": "#b9bebc"
+    },
+    {
+      "name": "Тропическое дерево",
+      "uid": "minecraft:log",
+      "meta": 3,
+      "color": "#997649"
+    },
+    {
+      "name": "Тыква",
+      "uid": "minecraft:pumpkin",
+      "meta": 0,
+      "color": "#c07615"
+    },
+    {
+      "name": "Уголь",
+      "uid": "minecraft:coal_ore",
+      "meta": 0,
+      "color": "#737373"
+    },
+    {
+      "name": "Угольный блок",
+      "uid": "minecraft:coal_block",
+      "meta": 0,
+      "color": "#121212"
+    },
+    {
+      "name": "Укреплённая строительная пена",
+      "uid": "IC2:blockReinforcedFoam",
+      "meta": 0,
+      "color": "#efeff0"
+    },
+    {
+      "name": "Укреплённое стекло",
+      "uid": "IC2:blockAlloyGlass",
+      "meta": 0,
+      "color": "#686b62",
+      "alpha": 0.4
+    },
+    {
+      "name": "Укреплённый камень",
+      "uid": "IC2:blockAlloy",
+      "meta": 0,
+      "color": "#605e53"
+    },
+    {
+      "name": "Улучшенная солнечная панель",
+      "uid": "AdvancedSolarPanel:BlockAdvSolarPanel",
+      "meta": 0,
+      "color": "#3f4243"
+    },
+    {
+      "name": "Ультимейт гибридная солнечная панель",
+      "uid": "AdvancedSolarPanel:BlockAdvSolarPanel",
+      "meta": 2,
+      "color": "#393d4a"
+    },
+    {
+      "name": "Упаковщик рецептов",
+      "uid": "BuildCraft|Silicon:packagerBlock",
+      "meta": 0,
+      "color": "#b7b7b7"
+    },
+    {
+      "name": "Урановая руда",
+      "uid": "IC2:blockOreUran",
+      "meta": 0,
+      "color": "#7a876d"
+    },
+    {
+      "name": "Урановый блок",
+      "uid": "IC2:blockMetal",
+      "meta": 3,
+      "color": "#9a9e6b"
+    },
+    {
+      "name": "Утилизатор",
+      "uid": "IC2:blockMachine",
+      "meta": 11,
+      "color": "#a3a9aa"
+    },
+    {
+      "name": "Утяжелённая нажимная пластина (Лёгкая)",
+      "uid": "minecraft:light_weighted_pressure_plate",
+      "meta": 0,
+      "color": "#f9ec4e"
+    },
+    {
+      "name": "Утяжелённая нажимная пластина (Тяжёлая)",
+      "uid": "minecraft:heavy_weighted_pressure_plate",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "Факел",
+      "uid": "minecraft:torch",
+      "meta": 0,
+      "color": "#826a3a"
+    },
+    {
+      "name": "Ферментер",
+      "uid": "IC2:blockMachine2",
+      "meta": 13,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Фильтр",
+      "uid": "BuildCraft|Transport:filteredBufferBlock",
+      "meta": 0,
+      "color": "#634932"
+    },
+    {
+      "name": "Фиолетовая обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 10,
+      "color": "#764656"
+    },
+    {
+      "name": "Фиолетовая стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 10,
+      "color": "#7f3fb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "Фиолетовая шерсть",
+      "uid": "minecraft:wool",
+      "meta": 10,
+      "color": "#7e3db5"
+    },
+    {
+      "name": "Фиолетовое стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 10,
+      "color": "#7f3fb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "Фиолетовый ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 10,
+      "color": "#7e3db5"
+    },
+    {
+      "name": "Хвоя",
+      "uid": "minecraft:leaves",
+      "meta": 1,
+      "color": "#747474"
+    },
+    {
+      "name": "Хладагент (IC2)",
+      "uid": "IC2:fluidCoolant",
+      "meta": 0,
+      "color": "#135869",
+      "alpha": 0.3
+    },
+    {
+      "name": "Хранилище шаблонов",
+      "uid": "IC2:blockMachine2",
+      "meta": 6,
+      "color": "#b6bdbd"
+    },
+    {
+      "name": "Цветочный горшок",
+      "uid": "minecraft:flower_pot",
+      "meta": 0,
+      "color": "#764133"
+    },
+    {
+      "name": "Цистерна",
+      "uid": "BuildCraft|Factory:tankBlock",
+      "meta": 0,
+      "color": "#7f0000",
+      "alpha": 0.4
+    },
+    {
+      "name": "Череп",
+      "uid": "minecraft:skull",
+      "meta": 0,
+      "color": "#544033"
+    },
+    {
+      "name": "Черная шерсть",
+      "uid": "minecraft:wool",
+      "meta": 15,
+      "color": "#191616"
+    },
+    {
+      "name": "Чёрная обожжённая глина",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 15,
+      "color": "#251610"
+    },
+    {
+      "name": "Чёрная стеклянная панель",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 15,
+      "color": "#191919",
+      "alpha": 0.4
+    },
+    {
+      "name": "Чёрное стекло",
+      "uid": "minecraft:stained_glass",
+      "meta": 15,
+      "color": "#191919",
+      "alpha": 0.4
+    },
+    {
+      "name": "Чёрный ковёр",
+      "uid": "minecraft:carpet",
+      "meta": 15,
+      "color": "#191616"
+    },
+    {
+      "name": "Шерсть",
+      "uid": "minecraft:wool",
+      "meta": 0,
+      "color": "#dddddd"
+    },
+    {
+      "name": "Шлюз",
+      "uid": "BuildCraft|Factory:floodGateBlock",
+      "meta": 0,
+      "color": "#a8a8a8"
+    },
+    {
+      "name": "Экстрактор",
+      "uid": "IC2:blockMachine",
+      "meta": 4,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Электрический кинетический генератор",
+      "uid": "IC2:blockKineticGenerator",
+      "meta": 2,
+      "color": "#b4bbbc"
+    },
+    {
+      "name": "Электрический сортирующий механизм",
+      "uid": "IC2:blockMachine3",
+      "meta": 5,
+      "color": "#a5abac"
+    },
+    {
+      "name": "Электрический термогенератор",
+      "uid": "IC2:blockHeatGenerator",
+      "meta": 3,
+      "color": "#b4bbbc"
+    },
+    {
+      "name": "Электролампа",
+      "uid": "IC2:blockLuminatorDark",
+      "meta": 0,
+      "color": "#c4c1c1",
+      "alpha": 0.4
+    },
+    {
+      "name": "Электролизёр",
+      "uid": "IC2:blockMachine",
+      "meta": 10,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Электропечь",
+      "uid": "IC2:blockMachine",
+      "meta": 2,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Эндерняк",
+      "uid": "minecraft:end_stone",
+      "meta": 0,
+      "color": "#dddfa5"
+    },
+    {
+      "name": "Энергообменный аппарат",
+      "uid": "IC2:blockPersonal",
+      "meta": 2,
+      "color": "#bdc3c5"
+    },
+    {
+      "name": "Энергорельсы",
+      "uid": "minecraft:golden_rail",
+      "meta": 0,
+      "color": "#846c48"
+    },
+    {
+      "name": "Энергохранилище",
+      "uid": "IC2:blockElectric",
+      "meta": 0,
+      "color": "#736c63"
+    },
+    {
+      "name": "Ядерный реактор",
+      "uid": "IC2:blockGenerator",
+      "meta": 5,
+      "color": "#9a9e6c"
+    },
+    {
+      "name": "Яйцо дракона",
+      "uid": "minecraft:dragon_egg",
+      "meta": 0,
+      "color": "#0c090f"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "desert_253,82,-1043",
+  "name": "desert",
+  "icon": "waypoint-normal.png",
+  "x": 253,
+  "y": 82,
+  "z": -1043,
+  "r": 245,
+  "g": 169,
+  "b": 9,
+  "enable": false,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

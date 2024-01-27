@@ -1,0 +1,17 @@
+{
+  "id": "Vill_1054,71,-1184",
+  "name": "Vill",
+  "icon": "waypoint-normal.png",
+  "x": 1054,
+  "y": 71,
+  "z": -1184,
+  "r": 254,
+  "g": 185,
+  "b": 252,
+  "enable": false,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}
